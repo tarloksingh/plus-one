@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>+One: Board Gamers Connect</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+    </head>
+    <body>
+        <a href="#" class ="toggle button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar">
+            <a href="index.html"><span class="highlight1">+</span><span class="highlight2">one</span></a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="Terms.html">Terms</a>
+            <a href="Privacy.html">Privacy</a>
+            <a href="mailto:help@bonjourland.com">Help</a>
+
+        </div>
+
+        <div class="Middle">
+            <div class="Text">
+                <div class="Title">
+                    <h1>Thank you! <br>  <span class="highlight1">+</span><span class="highlight2">one</span></h1>
+
+                </div>
+                <div class="iphone2">
+                    <img src="images/ImagePhone.png">
+                </div>
+                <div class="Title2">
+                    <h2> We will message you once we are done. </h2>
+                </div>
+
+    
+            </div>
+            <div class="iphone">
+                <img src="images/Iphone.png">
+            </div>
+
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "tarloksingifilms@gmail.com",
+                    Password : "password",
+                    To : 'terryswan1993@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Waitlist",
+                    Body : "I would like to join the waitlist!"
+                    }).then(
+                    message => alert(message)
+                    );
+            }
+        </script>
+    </body>
+</html>
