@@ -141,6 +141,7 @@
 
     }
 
+
     .Middle {
         display: flex;
         flex-direction: column;
@@ -191,8 +192,8 @@
     .Waitlist-container {
         max-width: auto;
         align-items: center;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-bottom: 10%;
     }
 
@@ -214,7 +215,7 @@
     }
 
     #email {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     .waitlist-form button {
