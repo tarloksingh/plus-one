@@ -2,7 +2,7 @@
 
 
     .navbar {
-        display: none;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 2%;
@@ -20,6 +20,22 @@
         color: #ffffff;
         text-decoration: none;
 
+    }
+
+    .image-button img {
+        /* Set the width to your desired size */
+        width: auto;
+        height: 75px;
+        /* This maintains the aspect ratio */
+    }
+
+    #button-container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 176px
     }
 
 
@@ -98,7 +114,7 @@
     }
 
     .waitlist-form {
-        display: flex;
+        display: none;
         flex-direction: column;
     }
 
@@ -148,6 +164,22 @@
     }
 
 
+    .image-button img {
+        /* Set the width to your desired size */
+        width: auto;
+        height: 60px;
+        /* This maintains the aspect ratio */
+    }
+
+    #button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+
     .Title {
         display: flex;
         flex-direction: column;
@@ -190,6 +222,7 @@
     }
 
     .Waitlist-container {
+        display: none;
         max-width: auto;
         align-items: center;
         margin-left: 5%;
@@ -198,7 +231,7 @@
     }
 
     .waitlist-form {
-        display: flex;
+        display: none;
         flex-direction: column;
     }
 
@@ -230,7 +263,7 @@
     }
 
     .navbar {
-        display: none;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 2%;
@@ -246,7 +279,7 @@
         font-size: 1rem;
         margin-right: 10%;
         margin-left: 10%;
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
 
     }
@@ -254,7 +287,7 @@
     /* Target the .highlight class within the h1 element */
     .highlight1 {
 
-        background-image: linear-gradient(0deg, #ffffff, #ffffff);
+        background-image: linear-gradient(0deg, #000000, #000000);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -263,7 +296,7 @@
     }
 
     .highlight2 {
-        color: #FFF;
+        color: #000000;
         font-weight: 100;
 
     }
