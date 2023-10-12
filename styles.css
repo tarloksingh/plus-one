@@ -270,10 +270,11 @@
         display: flex;
         justify-content: center;
         order: 2;
-        bottom: 0;
+        bottom: 1%;
         position: fixed;
 
     }
+    
 
     .navbar a {
         font-family: neue-haas-unica, sans-serif;
