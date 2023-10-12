@@ -77,7 +77,8 @@
         font-family: SF Pro Display;
         font-size: 80px;
         font-style: normal;
-        font-weight: 700;        /* 61.409px */
+        font-weight: 700;
+        /* 61.409px */
     }
 
     /* Target the .highlight class within the h1 element */
@@ -180,8 +181,8 @@
     #button-container {
         display: flex;
         justify-content: center;
-        padding-bottom: 3%;   
-     }
+        padding-bottom: 3%;
+    }
 
 
     .Title {
@@ -199,10 +200,14 @@
         font-family: neue-haas-unica, sans-serif;
         font-size: 4rem;
         font-style: normal;
-        font-weight: 600;        
-        text-align: left;   
+        font-weight: 600;
+        text-align: center;
         margin: 0%;
-        margin-top: 40%;
+    }
+
+    .Book {
+        margin-left: 0%;
+        margin-top: 21%;
     }
 
 
@@ -220,7 +225,7 @@
         font-style: normal;
         font-weight: 100;
         line-height: 153.523%;
-        text-align: left;
+        text-align: center;
 
     }
 
@@ -273,14 +278,15 @@
         position: fixed;
 
     }
-    
+
 
     .navbar a {
         font-family: neue-haas-unica, sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: .7rem;
-        margin-right: 30%;
+        padding-inline: 20%;
+
         color: #000000;
         text-decoration: none;
 
@@ -302,6 +308,7 @@
         font-weight: 100;
 
     }
+
 
 
 }
