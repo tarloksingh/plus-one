@@ -1,31 +1,32 @@
 @media screen and (min-width:1072px) {
 
-
     .navbar {
         display: flex;
         justify-content: center;
-        align-items: center;
-        padding-top: 2%;
-        padding-inline: 15%;
+        order: 2;
+        bottom: 1%;
+        position: fixed;
 
     }
 
-    .faq {
-        margin-left: 176px;
-        margin-right: 176px;
-    }
 
     .navbar a {
         font-family: neue-haas-unica, sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: 1rem;
-        margin-right: 10%;
-        margin-left: 10%;
-        color: #ffffff;
+        padding-inline: 50%;
+        color: #000000;
         text-decoration: none;
 
     }
+
+
+    .faq {
+        margin-left: 176px;
+        margin-right: 176px;
+    }
+
 
     .image-button img {
         /* Set the width to your desired size */
@@ -36,81 +37,52 @@
 
     #button-container {
         display: flex;
-        justify-content: left;
-        align-items: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        margin-left: 176px
+        justify-content: center;
+        padding-bottom: 3%;
     }
 
 
 
     body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #000000;
-        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #D7d7d7;
 
     }
 
     .Middle {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .Title {
-        margin-left: 176px;
-        border-right: 693px;
-    }
-
-    .Title2 {
-        margin-left: 176px;
-        border-right: 693px;
+        flex-direction: column;
+        margin-bottom: 10%;
     }
 
     .Title h1 {
-        color: #FFF;
-        text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.50);
-        font-family: SF Pro Display;
-        font-size: 80px;
+        color: #191919;
+        font-family: neue-haas-unica, sans-serif;
+        font-size: 4rem;
         font-style: normal;
-        font-weight: 700;
-        /* 61.409px */
+        font-weight: 600;
+        text-align: center;
+        margin: 0%;
     }
 
-    /* Target the .highlight class within the h1 element */
-    .highlight1 {
-
-        background-image: linear-gradient(0deg, #ffffff, #ffffff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        font-weight: 300;
-
-    }
-
-    .highlight2 {
-        color: #FFF;
+    .Title2 h2 {
+        color: #414141;
+        font-family: neue-haas-unica, sans-serif;
+        font-size: 1.1rem;
+        font-style: normal;
         font-weight: 100;
+        line-height: 153.523%;
+        text-align: center;
 
     }
+
 
     .iphone2 {
         display: none;
     }
 
-    .Title2 h2 {
-        color: #FFF;
-        font-family: SF Pro Display;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 100;
-        line-height: 153.523%;
-        /* 36.845px */
-    }
 
     .Waitlist-container {
         max-width: 405px;
