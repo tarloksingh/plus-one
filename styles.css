@@ -15,7 +15,7 @@
         font-weight: 300;
         font-style: normal;
         font-size: 1rem;
-        padding-inline: 50%;
+        padding-inline: 20%;
         color: #000000;
         text-decoration: none;
 
@@ -31,7 +31,7 @@
     .image-button img {
         /* Set the width to your desired size */
         width: auto;
-        height: 75px;
+        height: 60px;
         /* This maintains the aspect ratio */
     }
 
